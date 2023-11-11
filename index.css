@@ -317,9 +317,27 @@ nav a i{
 }
 
 @media only screen and (max-width:600px) {
+     .project iframe{
+        height: 40vw;
+     }
+     .project{
+        margin-top: 10vw;
+     }
+     .certifications h1{
+        font-size: 5vw;
+        font-size: 600;
+     }
+     
+     .project h1{
+        font-size: 5vw;
+        font-weight: 600;
+     }
+     .project p{
+        font-size: 3vw;
+     }
      .adjust{
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
      }
      .contact-content h2{
         font-size: 5vw; 
