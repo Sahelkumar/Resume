@@ -60,8 +60,17 @@
                     <a href="https://www.facebook.com/sahel.mondal.503"><i class="bi bi-facebook"></i></a>
                     
                 </div>
-                <div class="btn">
-                 <button><a href="https://red-berna-20.tiiny.site">Downlaod my cv</a></button> 
+                 <div class="btn">
+                  <button   id="message"><a href="https://red-berna-20.tiiny.site"  onclick="showAlert()">Checkout my cv <i class="ri-arrow-right-line"></i></a></button> 
+                </div>
+                <div style="margin-top:2vw;" class="techstack">
+                  <h4>Tech Stack </h4>
+                  <a href="/"><i class="ri-html5-fill"></i></a>
+                  <a href=""><i class="ri-css3-fill"></i></a>
+                  <a href=""><i class="ri-javascript-fill"></i></a>
+                  <a href=""><i class="ri-bootstrap-fill"></i></a>
+                  <a href=""><i class="ri-reactjs-line"></i></a>
+                 
                 </div>
             </div>
             <div class="images">
@@ -171,7 +180,7 @@
               <label for="message">Message:</label>
               <textarea id="message" name="message" rows="4" required></textarea>
           </div>
-          <button type="submit">Send Message</button>
+         <button type="submit" onclick="sent()" id="message1"><a href="#contact">Send message</a></button>
           
       </form>
   </div>
