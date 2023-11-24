@@ -2,6 +2,22 @@
     margin: 0;
     padding: 0;
 }
+}
+.techstack a {
+    text-decoration: none;
+    padding-right: 30px;
+    font-size: 3vw;
+    padding-top: 10px;
+    
+}
+.techstack a i{
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#message1 a{
+    text-decoration: none;
+    color: #fff;
+}
 body::-webkit-scrollbar{
     display: none;
 }
@@ -317,6 +333,9 @@ nav a i{
 }
 
 @media only screen and (max-width:600px) {
+     .images{
+         display:none;
+     }
      .project iframe{
         height: 40vw;
      }
